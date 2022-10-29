@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    
+    font-family: 'Lobster', cursive;
+}
+header {
+    height: 50px;
+    background-color: #d6952d;
+    margin-bottom: 20px;
+    
+
+
+    
+    
+
+    
+}
+h1 {
+    text-align: center;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(200, 189, 195);
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+}
+
+div {
+
+    width: calc(50% - 20px);
+    height: 400px;
+    background-color: blue;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid grey;
+    border-radius: 8px;
+    transition: 1s;
+    
+}
+div:hover {
+    transform: scale(1.05);
+}
+.item-1 {
+    background-image: url(../images/royal-imperial-bicycles-vintage-ladies-p01saddsnabsdjah.jpg);
+    
+    
+}
+.item-2 {
+    background-image: url(../images/bowdenspacelandertopoooooo.jpg);
+} 
+.item-3 {
+    background-image: url(../images/pic22.jpg);
+}
+.item-4 {
+    background-image: url(../images/le-velo-vintage-bikes-2.jpg);
+}
+.item-5 {
+    background-image: url(../images/föslkdsflks.jpg);
+}
+.item-6 {
+    background-image: url(../images/e7ed7c875cde2c018641f68a67c06a85.jpg);
+}
+.item-7 {
+    background-image: url(../images/6df6a840d12dccfaada408d3c73c2c33.jpg);
+}
+.item-8 {
+    background-image: url(../images/raara.jpg);
+}
+.item-9 {
+    background-image: url(../images/le-velo-vintage-bikes-8.jpg);
+}
+.item-10 {
+    background-image: url(../images/rennrad.jpg);
+}
